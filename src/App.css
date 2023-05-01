@@ -344,7 +344,7 @@ text-color: #eef0ff; */
 }
 
 .body4{
-  width: 595px;
-  height: 750px;
+  max-width: 500px;
+  height:600px;
   background-color: black;
 }
