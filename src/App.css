@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+ }
+  
+
+
+
 :root{
   --color-131921: #131921;
   --color-3b4149: #3b4149;
@@ -331,10 +335,11 @@ transition: 0.3s;
 /* famous card ends here*/
 
 
-/* #3f106a;
-#eef0ff;
 
-text-color: #eef0ff; */
+
+
+
+
 
 .body1 {
   margin: 50px auto;
@@ -345,9 +350,8 @@ text-color: #eef0ff; */
 
 .body4{
   margin-top: 20px;
-  max-width: 500px;
-  height:630px;
-border: 1px solid blue;
+  max-width: 490px;
+
 padding: 15px;
 }
 .body5{
@@ -356,11 +360,11 @@ justify-content: space-between;
 }
 
 .body5 > img{
-  height: 23px;
+  height: 25px;
 }
 
 .body5 > span{
-  font-size: 15.6px;
+  font-size: 16.1px;
   font-weight: 500;
   margin-right: 18px;
 }
@@ -372,7 +376,6 @@ justify-content: space-between;
 .body7{
   font-size: 10.5px;
     font-weight: 700;
-    margin-bottom: 7.5px;
     display: flex;
     justify-content: center;
 }
@@ -382,7 +385,13 @@ justify-content: space-between;
   font-weight: 900;
   display: flex;
     justify-content: center;
+    align-items: center;
 }
+.body8 > img {
+height: 35px;
+margin-top: 9px;
+}
+
 .body9 {
   height: 42.3px; 
   border-bottom: 1.5px solid #c0c0c0;
@@ -421,9 +430,72 @@ justify-content: space-between;
   font-weight: 500;
   font-size: 11.9px;
   padding-top: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.body15>img {
+  height: 13px;
+  margin-bottom: -0.5px ;
+
 }
 .body16 {
   color: #c0c0c0;
   font-size: 11px;
   padding-top: 4px;
+}
+
+.body17{
+display: flex;
+margin-top: 40px;
+justify-content: center;
+
+}
+
+.body18 {
+height: 40px;
+padding: 37px 28px 37px 22px ;
+border-radius: 13px;
+display: flex;
+gap: 20px;
+align-items: center;
+background-color:#eef0ff ;
+border: 1.5px solid #c0c0c020;
+}
+
+.body18 > img {
+height: 35px;
+}
+
+.body18 > div {
+font-weight: 900;
+font-size: 11px;
+color:#3f106a ;
+line-height: 13px;
+}
+
+.body19{
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: 9px;
+  color: #c0c0c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 12.5px;
+  margin-bottom: 35px;
+}
+
+.download{
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  display: flex;
+justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
 }
