@@ -25,6 +25,10 @@ const Home = () => {
                     <img src={t} alt="" />
                     <span>Transaction Details</span>
                 </div>
+                <div className='body6'>
+                    <div className='body7'>Transaction Amount</div>
+                    <div className='body8'>500.00</div>
+                </div>
             </div>
         </div>
     )
