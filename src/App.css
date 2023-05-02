@@ -412,7 +412,7 @@ justify-content: space-between;
   color: #c0c0c0;
   font-size: 9px;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   margin-right: 18px;
   margin-top: -3px;
 }
