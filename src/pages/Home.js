@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../App.css"
+import t from './kuda.png'
 
 const Home = () => {
     const [inputValue1, setInputValue1] = useState('');
@@ -19,7 +20,12 @@ const Home = () => {
             </div>
             <div className='body3'>Amount:  <input type="text" value={inputValue2} onChange={handleChange2} />
             </div>
-            <div className='body4'></div>
+            <div className='body4'>
+                <div className='body5'>
+                    <img src={t} alt="" />
+                    <span>Transaction Details</span>
+                </div>
+            </div>
         </div>
     )
 }

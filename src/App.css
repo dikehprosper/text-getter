@@ -30,7 +30,7 @@
 
 
 body {
-  font-family: "Rubik", sans-serif;
+  font-family: "mulish", sans-serif;
 }
 a {
   text-decoration: none;
@@ -344,7 +344,24 @@ text-color: #eef0ff; */
 }
 
 .body4{
+  margin-top: 20px;
   max-width: 500px;
-  height:600px;
-  background-color: black;
+  height:630px;
+border: 1px solid blue;
+padding: 15px;
+}
+.body5{
+display: flex;
+justify-content: space-between;
+}
+
+.body5 > img{
+  height: 25px;
+}
+
+.body5 > span{
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 18px;
+  opacity: 0.9;
 }
