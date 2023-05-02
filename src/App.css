@@ -351,14 +351,14 @@ transition: 0.3s;
 .body4{
   margin-top: 20px;
   max-width: 490px;
-height: 750px;
+height: 700px;
 padding: 15px;
 }
 @media (max-width: 640px){
   .body4 {
       margin-top: 20px;
       width: 100vw;
-      height: 750px;
+      height: 700px;
       padding: 15px;
     }
 }
@@ -394,10 +394,12 @@ justify-content: space-between;
   display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .body8 > img {
-height: 35px;
-margin-top: 9px;
+height: 13px;
+margin-top: 4px;
+
 }
 
 .body9 {
@@ -440,11 +442,13 @@ justify-content: space-between;
   padding-top: 3px;
   display: flex;
   align-items: center;
+
 }
 
 .body15>img {
-  height: 13px;
-  margin-bottom: -0.5px ;
+  height: 8.3px;
+  padding-right: 0.07px;
+margin-top: 1px;
 
 }
 .body16 {
