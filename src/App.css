@@ -351,8 +351,16 @@ transition: 0.3s;
 .body4{
   margin-top: 20px;
   max-width: 490px;
-
+height: 750px;
 padding: 15px;
+}
+@media (max-width: 640px){
+  .body4 {
+      margin-top: 20px;
+      width: 100vw;
+      height: 750px;
+      padding: 15px;
+    }
 }
 .body5{
 display: flex;
